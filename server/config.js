@@ -1,6 +1,5 @@
 const nodemailer = require('nodemailer');
 const dotenv = require('dotenv')
-const xoauth2 = require('xoauth2')
 dotenv.config();
 
 

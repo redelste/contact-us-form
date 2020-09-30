@@ -2,8 +2,6 @@ const path = require('path');
 const express = require('express');
 const transporter = require('./config');
 const dotenv = require('dotenv');
-const nodemailer = require('nodemailer');
-const xoauth2 = require('xoauth2')
 dotenv.config();
 
 const app = express();
